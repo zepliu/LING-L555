@@ -8,7 +8,7 @@ for line in lines:
 	n = n + 1
 	print("\n# sent_id = ", n)
 	sent = line.strip()
-	print("# text = ", sent, "\n")
+	print("# text = ", sent)
 	word_id = 1
 	sent = sent.replace("," , " , ")
 	sent = sent.replace("." , " . ")
