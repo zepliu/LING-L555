@@ -17,5 +17,5 @@ for line in lines:
 	sent = sent.replace(")" , " ) ")
 	sent = sent.split()
 	for i in sent:
-		print(word_id, i)
+		print('%d\t%s\t_\t_\t_\t_\t_\t_\t_\t_' % (word_id, i))
 		word_id = word_id + 1
